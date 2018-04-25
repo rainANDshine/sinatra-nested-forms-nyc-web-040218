@@ -1,4 +1,5 @@
-<h1>Make your form here</h1>
+<h1>Welcome to the Nested Forms Lab!</h1>
+<h2>let's navigate to the '/new'</h2>
 <form method="POST" action="/pirates">
 <label>
   <h2>Pirate</h2>
@@ -8,15 +9,15 @@
 </label>
 <label>
   <h2>Ship One</h2>
-  <p>Enter name: <input type="text" name="pirate[ships][][name]"></p>
-  <p>Enter type: <input type="text" name="pirate[ships][][type]"></p>
-  <p>Enter booty: <input type="text" name="pirate[ships][][booty]"></p>
+  <p>Enter name: <input id="ship_name_1" type="text" name="pirate[ships][][name]"></p>
+  <p>Enter type: <input id="ship_type_1" type="text" name="pirate[ships][][type]"></p>
+  <p>Enter booty: <input id="ship_booty_1" type="text" name="pirate[ships][][booty]"></p>
 </label>
 <label>
   <h2>Ship Two</h2>
-  <p>Enter name: <input type="text" name="pirate[ships][][name]"></p>
-  <p>Enter type: <input type="text" name="pirate[ships][][type]"></p>
-  <p>Enter booty: <input type="text" name="pirate[ships][][booty]"></p>
-  <p><input type="submit"></p>
+  <p>Enter name: <input id="ship_name_2" type="text" name="pirate[ships][][name]"></p>
+  <p>Enter type: <input id="ship_type_2" type="text" name="pirate[ships][][type]"></p>
+  <p>Enter booty: <input id="ship_booty_2" type="text" name="pirate[ships][][booty]"></p>
+  <p><input id="Submit" type="submit"></p>
 </label>
 </form>
